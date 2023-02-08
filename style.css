@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28233, 237, 241, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-toggler {
+    border: 2px solid var(--bs-navbar-toggler-border-color);
+}
+
+img {
+    border-radius: 0.2em;
+}
+
+.container {
+    max-width: 1280px;
+}
+
+.breadcrumb {
+    margin-top: 2em;
+}
+
+.breadcrumb li a {
+    list-style: none;
+    color: #333;
+}
+
+.content {
+    padding-top: 2em;
+}
+
+.btn-rezept {
+    background-color: #D90B1C;
+    color: white;
+    border: none;
+    border-radius: 0.2em;
+    padding: 0.5em;
+}
+
+.card {
+    margin-top: 1em;
+}
+
+.gallery {
+    padding-top: 2em;
+}
+
+.gallery img {
+    padding-top: 0.5em
+}
+
+.zubereitung p {
+    background-color: #99B1BF;
+    color: white;
+    padding: 2em;
+    margin-bottom: 2em;
+    border-radius: 0.2em;
+}
