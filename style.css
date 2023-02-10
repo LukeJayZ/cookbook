@@ -7,8 +7,16 @@ img {
     border-radius: 0.2em;
 }
 
-.container {
-    max-width: 1280px;
+.head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content_head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .breadcrumb {
@@ -20,8 +28,21 @@ img {
     color: #333;
 }
 
+.breadcrumb-item {
+    font-size: 0.7em;
+}
+
+
+.breadcrumb-item .active {
+    font-size: 0.7em;
+}
+
 .content {
     padding-top: 2em;
+}
+
+.zutaten {
+    margin-top: 1em;
 }
 
 .btn-rezept {
@@ -32,22 +53,39 @@ img {
     padding: 0.5em;
 }
 
+.btn-search {
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 0.2em;
+    padding:0.375rem 0.75rem;
+    width: 50%;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
 .card {
     margin-top:1em;
 }
 
-.gallery {
-    padding-top: 2em;
-}
-
-.gallery img {
-    padding-top:0.5em
+.card-box h2 {
+    margin-top: 2em;
 }
 
 .zubereitung p {
     background-color: #99B1BF;
     color: white;
     padding: 2em;
-    margin-bottom: 2em;
     border-radius: 0.2em;
+}
+
+.footer {
+    margin-top: 3em;
+    padding-top: 2em;
+    background-color: #333;
+}
+
+.footer form  button {
+    margin-top: 1em;
 }
