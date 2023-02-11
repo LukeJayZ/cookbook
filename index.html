@@ -15,11 +15,11 @@
 
     <div class="container-fluid">
         <header class="row">
-            <!--Navbar-->
-            <nav class="navbar navbar-expand-lg col-md-12 col-lg-8 mx-auto">
-                <a class="navbar-brand" href="#"><lottie-player
-                        src="https://assets5.lottiefiles.com/packages/lf20_ygOY09e7vS.json" background="transparent"
-                        speed="1" style="width: 120px; height: 120px;" loop autoplay></lottie-player></a>
+
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg col-md-12 col-lg-8 mx-auto">
+                <a class="navbar-brand" href="#"><lottie-player src="https://assets5.lottiefiles.com/packages/lf20_ygOY09e7vS.json" background="transparent"  speed="1"  style="width: 120px; height: 120px;" loop autoplay></lottie-player></a>
+
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -28,7 +28,8 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="./index.html">NASCHBAR</a>
+                         <a class="nav-link active" aria-current="page" href="index.html">NASCHBAR</a>
+
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">BLOG</a>
@@ -39,12 +40,15 @@
                                 REZEPTE
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li>
+
+                                <li><a class="dropdown-item" href="kohlsuppe.html">Kohlsuppe aus Portugal</a></li>
+                                <hr class="dropdown-divider">
+                                <li><a class="dropdown-item" href="ofengemuese.html">Ofengemüse</a></li>
                                     <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                <li><a class="dropdown-item" href="pasteis.html">Vegane Pastéis de Nata</a></li>
+                                <hr class="dropdown-divider">
+                                <li><a class="dropdown-item" href="thai_tacos.html">Thai Tacos</a></li>
+
                             </ul>
                         </li>
                     </ul>
@@ -53,80 +57,109 @@
                         <button class="btn-search" type="submit" onclick="notImplementedAlert()">Suchen</button>
                     </form>
                 </div>
-    </div>
-    </nav>
-    </header>
+            </div>
+        </nav>
+    </header> 
+
     <div class="container-fluid">
         <div class="col-md-12 col-lg-8 mx-auto">
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-4 head">
                     <h1>Willkommen bei Naschbar</h1>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt atque sunt blanditiis sit
-                        reiciendis error ullam neque molestias, delectus earum obcaecati ipsam in, quas id autem
-                        distinctio nobis omnis quisquam?
+
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt atque sunt blanditiis sit reiciendis error ullam neque molestias, delectus earum obcaecati ipsam in, quas id autem distinctio nobis omnis quisquam?
                     </p>
                 </div>
-                <div class="col-sm-12 col-md-12 col-lg-8">
-                    <img src="https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2970&q=80"
-                        alt="" width="100%">
+                <div class="col-sm-12 col-md-12 col-lg-8">  
+                    <img src="https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2970&q=80" alt="" width="100%">
+                </div>
                 </div>
             </div>
         </div>
     </div>
-    </div>
+
+
     <div class="container-fluid">
         <div class="col-md-12 col-lg-8 mx-auto card-box">
             <h2>Die beliebtesten Rezepte im Februar</h2>
             <div class="row row-cols-1 row-cols-md-2 g-4">
 
-                <div class="col ">
+                    
+                    <div class="col ">
                     <div class="card h-100">
-                        <img src="img/kohlsuppe-aus-portugal-mit-chorizo-49365.jpg" class="card-img-top" alt="...">
+                        
+                        <div class="hovereffect">
+                            <img src="img/kohlsuppe-aus-portugal-mit-chorizo-49365.jpg" class="card-img-top img-responsive" alt="...">
+                            <div class="overlay" style="background-color: rgba(51, 51, 51, 0.5);">
+                                <a class="info" href="kohlsuppe.html">Kohlsuppe</a>
+                            </div>                        
+                        </div>
+
                         <div class="card-body">
                             <h5 class="card-title">Kohlsuppe aus Portugal</h5>
                             <p class="card-text">Die knallt!</p>
+                            <button class="btn-rezept" onclick="window.location.href = 'kohlsuppe.html';">Zum Rezept</button>
+                        </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="col ">
-                    <div class="card h-100">
-                        <img src="img/ofengemuese-07.webp" class="card-img-top" alt="...">
-                        <div class="card-body">
+                    <div class="col ">
+                        <div class="card h-100">
+                            
+                            <div class="hovereffect">
+                                <img src="img/ofengemuese-07.webp" class="card-img-top img-responsive" alt="...">
+                                <div class="overlay" style="background-color: rgba(51, 51, 51, 0.5);">
+                                    <a class="info" href="ofengemuese.html">Ofengemüse</a>
+                                </div>     
+                            </div>
+
+                            <div class="card-body">
                             <h5 class="card-title">Ofengemüse mit Dukkah und Toum</h5>
                             <p class="card-text">Mehr Knoblauch geht nicht! Danach haben sie keine Freunde mehr!</p>
+                            <button class="btn-rezept" onclick="window.location.href = 'ofengemuese.html';">Zum Rezept</button>
                         </div>
                     </div>
 
-                </div>
-                <div class="col ">
-                    <div class="card h-100">
-                        <img src="img/ofengemuese-09.webp" class="card-img-top" alt="...">
+                    </div>
+                    <div class="col ">
+                        <div class="card h-100">
+                            <div class="hovereffect">
+                                <img src="img/IMG_4920.webp" class="card-img-top" alt="...">
+                                <div class="overlay" style="background-color: rgba(51, 51, 51, 0.5);">
+                                    <a class="info" href="pasteis.html">Pastéis de Nata</a>
+                                </div>     
+                            </div>
+
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
-                                to additional content.</p>
+                            <h5 class="card-title">Vegane Pastéis de Nata</h5>
+                            <p class="card-text">Als wir euch vor ein paar Wochen eine kleine Vorschau unserer veganen Pastéis de Nata auf Instagram gezeigt haben, explodierte unser Postfach voll vorfreudiger Nachrichten. Hui, das haben wir so nicht erwartet! Umso mehr freuen wir uns also euch nun das ganze Rezept zeigen zu können.</p>
+                            <button class="btn-rezept" onclick="window.location.href = 'pasteis.html';">Zum Rezept</button>
+                        </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="col">
-                    <div class="card h-100">
-                        <img src="img/ofengemuese-09.webp" class="card-img-top" alt="...">
+                    <div class="col">
+                        <div class="card h-100">
+                            <div class="hovereffect">
+                                <img src="img/R56+Vegane+Thai+Tacos11.webp" class="card-img-top" alt="...">
+                                <div class="overlay" style="background-color: rgba(51, 51, 51, 0.5);">
+                                    <a class="info" href="thai_tacos.html">Thai Tacos</a>
+                                </div>    
+                            </div>
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
-                                to additional content.</p>
+                            <h5 class="card-title">Vegane Thai Tacos mit Erdnusssauce</h5>
+                            <p class="card-text">Nachdem wir in unseren letzten Taco Tuesdays nicht gerade mit Fett gespart haben (Stichwort: Frittierparty!), brauchen wir diese Woche eine kleine Gemüseauszeit. In der Kombination mit frischem Koriander, Erdnusstofu und Erdnussdressing (oh, da ist das Fett ja wieder!) könnten wir diese Tacos eigentlich jeden Tag essen. Ein Reisnudelsalat als Taco, wie könnten wir und ihr da widerstehen?</p>
+                            <button class="btn-rezept" onclick="window.location.href = 'thai_tacos.html';">Zum Rezept</button>
+                        </div>
                         </div>
                     </div>
-                </div>
-
             </div>
         </div>
     </div>
 
     <div class="container-fluid footer">
+
         <div class="row">
             <footer class="col-sm-12 col-md-12 col-lg-8 mx-auto">
                 <div class="row">
@@ -135,41 +168,40 @@
                         <a class="btn btn-floating m-1" href="#!" role="button">
                             <img src="./img/facebook.png" class="fab fa-facebook-f"></img>
                         </a>
-
+        
                         <!-- Twitter -->
-                        <a class="btn btn-floating m-1" href="#!" role="button"><img src="./img/twitter.png"
-                                class="fab fa-twitter"></img></a>
-
+                        <a class="btn btn-floating m-1" href="#!" role="button"><img
+                                src="./img/twitter.png" class="fab fa-twitter"></img></a>
+        
                         <!-- Google -->
                         <a class="btn btn-floating m-1" href="#!" role="button"><img src="./img/gplus.png"
                                 class="fab fa-google"></img></a>
-
+        
                         <!-- Instagram -->
-                        <a class="btn btn-floating m-1" href="#!" role="button"><img src="./img/instagram.png"
-                                class="fab fa-instagram"></img></a>
-
+                        <a class="btn btn-floating m-1" href="#!" role="button"><img
+                                src="./img/instagram.png" class="fab fa-instagram"></img></a>
+                        
                     </div>
                     <div class="col-sm-12 col-md-12 col-lg-6">
                         <form action="">
-                            <div class="form-outline form-white">
-                                <input type="email" id="form5Example21" class="form-control"
-                                    placeholder="Für Newsletter anmelden" />
-                                <button type="submit" class="btn btn-outline-light mb-4"
-                                    onclick="notImplementedAlert()">Anmelden</button>
-                            </div>
+                                    <div class="form-outline form-white">
+                                        <input type="email" id="form5Example21" class="form-control" placeholder="Für Newsletter anmelden" />
+                                        <button type="submit" class="btn btn-outline-light mb-4">Anmelden</button>
+                                    </div>
                         </form>
                     </div>
                 </div>
+                
 
             </footer>
         </div>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-        crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-    <script src="./action.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<script src="action.js"></script>
+
 </body>
 
 </html>
