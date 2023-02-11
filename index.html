@@ -23,7 +23,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="./index.html">NASCHBAR</a>
+                            <a class="nav-link active" aria-current="page" href="index.html">NASCHBAR</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">BLOG</a>
@@ -34,18 +34,19 @@
                                 REZEPTE
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li>
+                                <li><a class="dropdown-item" href="kohlsuppe.html">Kohlsuppe aus Portugal</a></li>
+                                <hr class="dropdown-divider">
+                                <li><a class="dropdown-item" href="ofengemuese.html">Ofengemüse</a></li>
                                     <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                <li><a class="dropdown-item" href="pasteis.html">Vegane Pastéis de Nata</a></li>
+                                <hr class="dropdown-divider">
+                                <li><a class="dropdown-item" href="thai_tacos.html">Thai Tacos</a></li>
                             </ul>
                         </li>
                     </ul>
                     <form class="d-flex" role="search">
                         <input class="form-control me-2" type="search" placeholder="Suche" aria-label="Search">
-                        <button class="btn-search" type="submit">Suchen</button>
+                        <button class="btn-search" type="submit" onclick="notImplementedAlert()">Suchen</button>
                     </form>
                 </div>
             </div>
@@ -67,6 +68,7 @@
             </div>
         </div>
     </div>
+
     <div class="container-fluid">
         <div class="col-md-12 col-lg-8 mx-auto card-box">
             <h2>Die beliebtesten Rezepte im Februar</h2>
@@ -74,40 +76,69 @@
                     
                     <div class="col ">
                     <div class="card h-100">
-                        <img src="img/kohlsuppe-aus-portugal-mit-chorizo-49365.jpg" class="card-img-top" alt="...">
+                        
+                        <div class="hovereffect">
+                            <img src="img/kohlsuppe-aus-portugal-mit-chorizo-49365.jpg" class="card-img-top img-responsive" alt="...">
+                            <div class="overlay" style="background-color: rgba(51, 51, 51, 0.5);">
+                                <a class="info" href="kohlsuppe.html">Kohlsuppe</a>
+                            </div>                        
+                        </div>
+
                         <div class="card-body">
                             <h5 class="card-title">Kohlsuppe aus Portugal</h5>
                             <p class="card-text">Die knallt!</p>
+                            <button class="btn-rezept" onclick="window.location.href = 'kohlsuppe.html';">Zum Rezept</button>
                         </div>
                         </div>
                     </div>
 
                     <div class="col ">
                         <div class="card h-100">
-                            <img src="img/ofengemuese-07.webp" class="card-img-top" alt="...">
-                        <div class="card-body">
+                            
+                            <div class="hovereffect">
+                                <img src="img/ofengemuese-07.webp" class="card-img-top img-responsive" alt="...">
+                                <div class="overlay" style="background-color: rgba(51, 51, 51, 0.5);">
+                                    <a class="info" href="ofengemuese.html">Ofengemüse</a>
+                                </div>     
+                            </div>
+
+                            <div class="card-body">
                             <h5 class="card-title">Ofengemüse mit Dukkah und Toum</h5>
                             <p class="card-text">Mehr Knoblauch geht nicht! Danach haben sie keine Freunde mehr!</p>
+                            <button class="btn-rezept" onclick="window.location.href = 'ofengemuese.html';">Zum Rezept</button>
                         </div>
                     </div>
 
                     </div>
                     <div class="col ">
                         <div class="card h-100">
-                            <img src="img/ofengemuese-09.webp" class="card-img-top" alt="...">
+                            <div class="hovereffect">
+                                <img src="img/IMG_4920.webp" class="card-img-top" alt="...">
+                                <div class="overlay" style="background-color: rgba(51, 51, 51, 0.5);">
+                                    <a class="info" href="pasteis.html">Pastéis de Nata</a>
+                                </div>     
+                            </div>
+
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                            <h5 class="card-title">Vegane Pastéis de Nata</h5>
+                            <p class="card-text">Als wir euch vor ein paar Wochen eine kleine Vorschau unserer veganen Pastéis de Nata auf Instagram gezeigt haben, explodierte unser Postfach voll vorfreudiger Nachrichten. Hui, das haben wir so nicht erwartet! Umso mehr freuen wir uns also euch nun das ganze Rezept zeigen zu können.</p>
+                            <button class="btn-rezept" onclick="window.location.href = 'pasteis.html';">Zum Rezept</button>
                         </div>
                         </div>
                     </div>
 
                     <div class="col">
                         <div class="card h-100">
-                            <img src="img/ofengemuese-09.webp" class="card-img-top" alt="...">
+                            <div class="hovereffect">
+                                <img src="img/R56+Vegane+Thai+Tacos11.webp" class="card-img-top" alt="...">
+                                <div class="overlay" style="background-color: rgba(51, 51, 51, 0.5);">
+                                    <a class="info" href="thai_tacos.html">Thai Tacos</a>
+                                </div>    
+                            </div>
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                            <h5 class="card-title">Vegane Thai Tacos mit Erdnusssauce</h5>
+                            <p class="card-text">Nachdem wir in unseren letzten Taco Tuesdays nicht gerade mit Fett gespart haben (Stichwort: Frittierparty!), brauchen wir diese Woche eine kleine Gemüseauszeit. In der Kombination mit frischem Koriander, Erdnusstofu und Erdnussdressing (oh, da ist das Fett ja wieder!) könnten wir diese Tacos eigentlich jeden Tag essen. Ein Reisnudelsalat als Taco, wie könnten wir und ihr da widerstehen?</p>
+                            <button class="btn-rezept" onclick="window.location.href = 'thai_tacos.html';">Zum Rezept</button>
                         </div>
                         </div>
                     </div>
@@ -155,5 +186,6 @@
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<script src="action.js"></script>
 </body>
 </html>
